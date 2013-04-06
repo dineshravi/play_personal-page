@@ -1,0 +1,86 @@
+body{
+font-style:normal; 
+font-variant:normal;
+font-weight:normal;
+font-size:14px;
+color:#848484;
+font-family: Georgia, Times;
+}
+
+#about{
+width:950px;
+padding-top: 3px;
+padding-bottom:59px;
+padding-right:0px;
+padding-left:0px;
+margin-top:0px;
+margin-bottom:0px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#story {
+font-size: 18px;
+line-height: 30px;
+width: 440px;
+float: left;
+padding-right: 90px;
+}
+
+#about h1{
+margin-bottom:4px;
+margin-top:4px;
+}
+
+h1 {
+font-size: 41px;
+line-height: 50px;
+font-weight: normal;
+font-style: normal;
+color: #3C3C3C;
+}
+
+#about h2 {
+font-size: 14px;
+line-height: 20px;
+font-style: italic;
+margin-bottom: 14px;
+}
+
+p{
+margin-bottom:20px;
+}
+
+ul#contact{
+width: 230px;
+float: left;
+padding-right: 50px;
+padding-top: 96px;
+list-style-type: none;
+line-height: 20px;
+}
+
+#contact li{
+width:230px;
+margin-bottom:5px;
+overflow-x:hidden;
+overflow-y:hidden;
+}
+
+#contact li span{
+float:left;
+}
+
+#contact li strong{
+float:right
+
+}
+
+
+
+
+
+
+
+
