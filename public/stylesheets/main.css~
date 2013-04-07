@@ -17,7 +17,8 @@ margin-top:0px;
 margin-bottom:0px;
 margin-left:auto;
 margin-right:auto;
-
+overflow-x: hidden;
+overflow-y: hidden;
 }
 
 #story {
@@ -74,13 +75,23 @@ float:left;
 
 #contact li strong{
 float:right
-
 }
 
+.section {
+width: 950px;
+margin-top:0px;
+margin-bottom:0px;
+margin-right:auto;
+margin-left:auto;
+}
 
+.section a{
+text-decoration: none;
+}
 
-
-
+a:visited{
+color:grey:
+}
 
 
 

@@ -21,14 +21,6 @@ overflow-x: hidden;
 overflow-y: hidden;
 }
 
-#story {
-font-size: 18px;
-line-height: 30px;
-width: 440px;
-float: left;
-padding-right: 90px;
-}
-
 #about h1{
 margin-bottom:4px;
 margin-top:4px;
@@ -53,45 +45,11 @@ p{
 margin-bottom:20px;
 }
 
-ul#contact{
-width: 230px;
+
+#story {
+font-size: 18px;
+line-height: 30px;
+width: 440px;
 float: left;
-padding-right: 50px;
-padding-top: 96px;
-list-style-type: none;
-line-height: 20px;
+padding-right: 90px;
 }
-
-#contact li{
-width:230px;
-margin-bottom:5px;
-overflow-x:hidden;
-overflow-y:hidden;
-}
-
-#contact li span{
-float:left;
-}
-
-#contact li strong{
-float:right
-}
-
-.section {
-width: 950px;
-margin-top:0px;
-margin-bottom:0px;
-margin-right:auto;
-margin-left:auto;
-}
-
-.section a{
-text-decoration: none;
-}
-
-a:visited{
-color:grey:
-}
-
-
-
