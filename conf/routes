@@ -7,5 +7,9 @@ GET     /                           controllers.Application.index()
 
 GET		/tech						controllers.Application.tech()
 
+GET		/business					controllers.Application.business()
+
+POST	/admin						controllers.Application.my_login()
+
 
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

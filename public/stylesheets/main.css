@@ -1,97 +1,92 @@
-body{
-font-style:normal; 
-font-variant:normal;
-font-weight:normal;
-font-size:14px;
-color:#848484;
-font-family: Georgia, Times;
+.banner{
+height:360px;
+background-image: url("/assets/images/din.png");
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: initial;
+background-size:cover;
+width:100%;
+text-align:center;
 }
 
-#about{
-width:950px;
-padding-top: 3px;
-padding-bottom:59px;
-padding-right:0px;
-padding-left:0px;
-margin-top:0px;
-margin-bottom:0px;
-margin-left:auto;
-margin-right:auto;
-overflow-x: hidden;
-overflow-y: hidden;
+.in-banner{
+padding:100px;
+
 }
 
-#story {
-font-size: 18px;
-line-height: 30px;
-width: 440px;
-float: left;
-padding-right: 90px;
+h1{
+font-size:65px;
+font-family:Open Sans;
+font-weight:700;
+margin-top: 0px;
+margin-bottom: .75em;
+color:white;
 }
 
-#about h1{
-margin-bottom:4px;
-margin-top:4px;
+em{
+font-size:2em;
+font-family:Open Sans;
+opacity:.3;
+color:white;
 }
 
-h1 {
-font-size: 41px;
-line-height: 50px;
-font-weight: normal;
-font-style: normal;
-color: #3C3C3C;
+.intro{
+background-image: initial;
+background-repeat-x: initial;
+background-repeat-y: initial;
+background-attachment: initial;
+background-position-x: initial;
+background-position-y: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: #F3F3F3;
+color:#222;
+width:100%
+
 }
 
-#about h2 {
-font-size: 14px;
-line-height: 20px;
-font-style: italic;
-margin-bottom: 14px;
+hr{
+margin-top: 10px;
+margin-right: auto;
+margin-bottom: 20px;
+margin-left: auto;
+height:1px;
 }
 
-p{
-margin-bottom:20px;
+
+
+.wrapper {
+height: 100%;
+margin: auto;
+margin-top: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-left: auto;
+position: relative;
+min-width: 960px;
+width: 66.66666666666667%;
 }
 
-ul#contact{
-width: 230px;
-float: left;
-padding-right: 50px;
-padding-top: 96px;
-list-style-type: none;
-line-height: 20px;
+#topNav{
+height: 40px;
+color: #EBEBEB;
+background-color: #232323;
+border-bottom: 2px solid #AF3A42;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: #333;
+
 }
 
-#contact li{
-width:230px;
-margin-bottom:5px;
-overflow-x:hidden;
-overflow-y:hidden;
+#logo{
+display:inline-block;
 }
 
-#contact li span{
-float:left;
-}
-
-#contact li strong{
-float:right
-}
-
-.section {
-width: 950px;
-margin-top:0px;
-margin-bottom:0px;
-margin-right:auto;
-margin-left:auto;
-}
-
-.section a{
-text-decoration: none;
-}
-
-a:visited{
-text-decoration:none;
-color:grey
+#topNav nav{
+position:absolute;
+right:0px;
+display:inline-block;
 }
 
 
