@@ -6,8 +6,9 @@ import play.data.DynamicForm;
 import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
+import views.html.business;
 import views.html.index;
-import views.html.myIndex;
+
 import views.html.tech;
 
 public class Application extends Controller {
@@ -21,13 +22,8 @@ public class Application extends Controller {
 	}
 
 	public static Result business() {
-		
-		String cookieName = request().cookies().get("admin").value();
-		if(cookieName.equals("dinesh")){
-			return ok(myIndex.render(" Cookie :" ,cookieName  ));
-		}
-		 else return ok(index.render());
-			
+		return ok(business.render());
+					
 	}
 
 	public static Result my_login() {
@@ -39,7 +35,7 @@ public class Application extends Controller {
 		
 		if (email.equals("email") && password.equalsIgnoreCase("one")) {
 			response().setCookie("admin", "dinesh");
-			return ok(myIndex.render(email, password));
+			return ok(tech.render());
 		} else
 			return ok(index.render());
 	}
