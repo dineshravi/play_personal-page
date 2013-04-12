@@ -1,16 +1,30 @@
-@(email: String, password: String)
+@(posts: List[Post])
 
 <!DOCTYPE html>
 
 <html>
  <head>
- 	<title>Technology</title>
+ 	<title>Admin Index</title>
  	<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/tech.css")">
  </head>
  <body>
- 	<p>This is the MyIndex Test Page</p>
- 	<p>@email</p>
- 	<p>@password</p>
-		
+ 	<h1> Admin Index</h1>
+ 	    
+    @for(post <- posts){
+    	
+    	<ul>
+    	<li><p>@post.id @post.title @post.content <br>
+    		<a href="/post/delete/@post.id">delete</a>
+    	</p><a href="/post/edit/@post.id">edit</a>
+    												 
+    												 
+    	</li>
+    	
+    	</ul
+    	
+    }
+    
+    <p class = "text-center"><a href="/post/new">New Post</a></p>
+ 	
  </body
 </html>

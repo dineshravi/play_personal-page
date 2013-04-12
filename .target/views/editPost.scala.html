@@ -1,0 +1,19 @@
+@(post: Post)
+
+<!DOCTYPE html>
+
+<html>
+ <head>
+ 	<title>Edit Post</title>
+ 	<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/tech.css")">
+ </head>
+ <body>
+ 	<h3>Edit Poste</h3>
+ <form action = "/post/update/@post.id" method="post">
+ <input name="title">@post.title</input>
+ <textarea name="content" type="text">@post.content</textarea>
+ <input type="submit">
+ </form>
+ 
+ </body
+</html>

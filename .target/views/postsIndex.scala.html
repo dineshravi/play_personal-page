@@ -1,0 +1,27 @@
+@(posts: List[Post])
+
+<!DOCTYPE html>
+
+<html>
+ <head>
+ 	<title>Posts Index</title>
+ 	<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/tech.css")">
+ </head>
+ <body>
+ 	<h1> Posts Index</h1>
+ 	    
+    @for(post <- posts){
+    	
+    	<ul>
+    	<li><p>@post.id @post.title @post.content </p>
+    												    												 
+    	</li>
+    	
+    	</ul
+    	
+    }
+    
+   
+ 	
+ </body
+</html>

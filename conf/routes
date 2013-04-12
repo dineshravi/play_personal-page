@@ -11,5 +11,20 @@ GET		/business					controllers.Application.business()
 
 POST	/admin						controllers.Application.my_login()
 
+GET		/adminIndex					controllers.PostsController.adminIndex()
+
+GET		/post/new					controllers.PostsController.newPost()
+
+POST	/posts						controllers.PostsController.addPost()
+
+GET		/post/edit/:postId			controllers.PostsController.editPost(postId: Long)
+
+POST	/post/update/:postId		controllers.PostsController.updatePost(postId: Long)
+
+GET		/post/delete/:postId		controllers.PostsController.deletePost(postId: Long)
+
+GET		/postsIndex					controllers.PostsController.postsIndex()
+
+GET		/logout						controllers.Application.logout()
 
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

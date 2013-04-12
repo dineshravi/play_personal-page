@@ -47,7 +47,7 @@ width:100%
 }
 
 hr{
-margin-top: 20px;
+margin-top: 10px;
 margin-right: auto;
 margin-bottom: 20px;
 margin-left: auto;
