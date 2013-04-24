@@ -1,20 +1,151 @@
-<!DOCTYPE html>
-
-<html>
- <head>
- 	<title>Technology</title>
- 	<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/tech.css")">
- </head>
- <body>
- 	<div id="about">
- 	<div id="story">
- 		<h1>Technology</h1>
- 			<h2>Software Engineer</h2>
- 				<p>	
- 					"I am deeply interested in the roles of technology and business in progressive global change.
- 					 I get motivated and excited looking at the business side of technologies and love working at the confluence of both these domains"
- 				</p>
- 	</div> 
- 	</div>
- </body
-</html>
+@main("technology") {
+ 
+ 
+	<div clas="container" style="background-color:white">
+		
+		<aside class="cover">
+			<div class="cover-img" style="background-image:url('/assets/images/star.png')">
+			</div>
+			<div class="cover-body">
+				<div class="cover-body-inner">
+					<h1 class="cover-title">Technology</h1>		
+					<p class="cover-description" Style="color:white"> Masters in Computer Science from Universit at Buffalo
+																	  State University of New York
+					</p>
+				</div>
+			</div>
+		</aside>
+		
+		<section  class="wrap">
+			<div class="wrap-inner">
+			  <div class="bucket">
+			  
+				  <div class="avatar-header">
+					  <div class="cover-action" Style="position:relative;float:right">
+						<a href="/">
+							<img src="/assets/images/din.png" class="item-avatar">
+							</img>
+						</a>
+					  </div>
+				  </div>
+			  			  		  
+				  <div class="bucket-header" style="height:160px;">
+					<h5 class="bucket-title">
+						<span class="bucket-header-title">
+							Frameworks:
+						</span>
+						<span style="float:right">
+							PlayFramework (java),Rails,Django,Silverlight
+						</span>
+					</h5>
+					
+					<h5 class="bucket-title">
+						<span class="bucket-header-title">
+							Programming Languages:
+						</span>
+						<span style="float:right">
+							Java, C++, Ruby, Python
+						</span>
+			     	</h5>
+			     	
+			     	<h5 class="bucket-title">
+			     		<span class="bucket-header-title">
+			     			Web Development:
+			     		</span>
+			     		<span style="float:right">
+			     			JavaScript, CSS, HTML
+			     		</span>
+				    </h5>
+				    
+				    <h5 class="bucket-title">
+						<span class="bucket-header-title">
+							Test Framework:
+						</span>
+						<span style="float:right">
+							JUnit
+						</span>
+				    </h5>
+				    
+				    <h5 class="bucket-title">
+						<span class="bucket-header-title">
+							Databases:
+						</span>
+						<span style="float:right">
+							SQL
+						</span>
+				    </h5>
+				   					
+				</div>
+			  			  	
+				    <article class="item">
+						<h3 class="item-title">Data Integration (Civic.ly): Android Platform
+						</h3>
+						<div class="item-meta">
+							<p>This is an android application to aggregate user driven data from 
+							   across various social networks.</br>
+							
+							   Worked on the front end, product design and 
+							   integration with social networks
+				   
+							</p>
+						</div>
+					</article>
+					
+					<article class="item">
+						<h3 class="item-title">Databases: Java
+						</h3>
+						<div class="item-meta">
+							<p>Implemented a Database framework in Java for 
+							   storing files with more than one index
+							   </br>
+					           	Used B+ tree algorithm to build secondary indices
+					           </br>
+					           	Built a query parser and an evaluator for a given subset of SQL queries
+					           	
+					        </p>
+					    </div>
+					</article>
+					
+					<article class="item">
+					    <h3 class="item-title">Distributed Systems: Java & Android Platform
+					    </h3>
+				     	<div class="item-meta">
+						    <p>Developed a distributed key/value store on android platform
+						    </br>
+							   Implemented a Ring – Distributed Hash Table and benchmarked performance and scalability
+							   using custom designed version of The Chord algorithm
+			          			           	
+				            </p>
+				        </div>
+				    </article>
+				   
+				    <article class="item">
+					    <h3 class="item-title">Software Engineering (Smart Asthma Monitor (SAM)): Django Framework
+					    </h3>
+					    <div class="item-meta">
+						    <p>Implemented a system to log time stamps for monitoring patient’s progress and medication
+							   pattern using Django frame work
+						      </br>
+							  A prototype system currently being tested at The Cincinnati Children’s Hospital Medical Centre
+			          			           	
+				            </p>
+				       </div>
+				   </article>
+				   
+				   <div class="bucket-header">
+					 <h5 style="font-size:12px">Personal Projects</h5>
+				   </div>
+				
+				</div>
+			</div>
+			
+			<hr>
+			<footer>
+			<p align="center">© dinesh</p>
+			</footer>
+			
+		</section>
+	
+	</div>
+ 
+}

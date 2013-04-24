@@ -8,12 +8,16 @@
  	<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/tech.css")">
  </head>
  <body>
+ 	
  	<h3>Edit Poste</h3>
- <form action = "/post/update/@post.id" method="post">
- <input name="title">@post.title</input>
- <textarea name="content" type="text">@post.content</textarea>
- <input type="submit">
- </form>
+ 	<p class = "text-center"><a href="/">Home</a></p>
+ 	<form action = "/post/update/@post.id" method="post">
+ 	Title </br>
+ 	<input name="title" placeholder="@post.title"></input></br>
+ 	</br> Content </br>
+ 	<textarea name="content" type="text">@post.content</textarea></br>
+ 	<input type="submit">
+ 	</form>
  
  </body
 </html>

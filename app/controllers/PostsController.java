@@ -20,8 +20,18 @@ public class PostsController extends Controller {
 	}
 	
 	public static Result adminIndex(){
+		String cookieName;
+		try{
+		cookieName = request().cookies().get("admin").value();
+		}catch (Exception e){
+			return redirect(routes.Application.index());
+		}
+		if(cookieName.equals("dinesh")){
 		List<Post> posts = new Model.Finder(String.class, Post.class).all();
 		return ok(myIndex.render(posts));
+		
+		}else return	
+				redirect(routes.Application.index());
 	}
 	
 	public static Result newPost(){
