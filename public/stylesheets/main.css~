@@ -290,6 +290,6 @@ border-top-color: rgba(255, 255, 255, 0.296875);
 
 
 p{
-line-height:;
+line-height:1.6;
 }
 
