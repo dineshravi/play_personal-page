@@ -192,7 +192,7 @@ transition: opacity .5s linear;
 }
 
 .item-title {
-font-size: 32px;
+font-size: 30px;
 line-height: 1.2;
 padding-bottom: 0px;
 font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
@@ -288,4 +288,8 @@ border-top-style: solid;
 border-top-color: rgba(255, 255, 255, 0.296875);
 }
 
+
+p{
+line-height:;
+}
 
